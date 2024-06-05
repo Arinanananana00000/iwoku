@@ -30,16 +30,23 @@ h2 {
 p{
     color: #D3D3D3;
 /*    font-size: 20px;*/
-}   
+}  
 
 
 /* 1 экран */
 
-.header {
-    background-image: url(https://kartinkin.net/uploads/posts/2021-08/1627873471_51-kartinkin-com-p-yaichnaya-lapsha-vok-yeda-krasivo-foto-63.jpg);
+.my-slides {
     background-repeat: no-repeat;
     background-size: 100% ; 
-    padding-bottom: 105px;
+    padding-bottom: 105px;    
+}
+
+#first-slide {
+    background-image: url(https://kartinkin.net/uploads/posts/2021-08/1627873471_51-kartinkin-com-p-yaichnaya-lapsha-vok-yeda-krasivo-foto-63.jpg);
+}
+
+#second-slide {
+    background-image: url("../img/second-slide.jpg");
 }
 
 .overlay{
@@ -65,7 +72,7 @@ p{
     color: #000;
 }
 
-.offer, #carousel{
+.offer {
     margin-top: 117px;
 
 }
@@ -188,9 +195,9 @@ p{
     font-size: 16px;
     font-family: 'PT Sans', sans-serif; 
     border-radius: 5px;
-    width: 580px;
+    width: 100%;
     padding: 15px 0;
-    margin-right: 21px;
+/*    margin-right: 21px;*/
     border:0;
     outline: none;
 
@@ -207,7 +214,7 @@ p{
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
-  width: 126px;
+  width: 25%;
   border: 0;
   padding: 15px 0;
   cursor: pointer;
@@ -226,9 +233,9 @@ background: #000;
 
 .footer_info {
     color: #fff;
-    font-size: 16px;
+    font-size: 10pt;
     text-align: center;
-    width: 184px;
+/*    width: 184px;*/
     margin: 0 auto;
     text-align: center;
 }
@@ -268,19 +275,6 @@ background: #000;
     }
     .title__text {
         width: auto;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .ipad {
-        width: 100%;
-    }
-    .menu {
-        flex-direction: column;
-    }
-    .menu__item {
-        text-align: center;
-        margin-bottom:10px;
     }
 }
 
